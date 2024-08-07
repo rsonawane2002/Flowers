@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32B6B4632C6417140053E677 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B6B4622C6417140053E677 /* CameraView.swift */; };
 		32DCCB3D2C63567C008E435A /* FlowersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DCCB3C2C63567C008E435A /* FlowersApp.swift */; };
 		32DCCB3F2C63567C008E435A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DCCB3E2C63567C008E435A /* ContentView.swift */; };
 		32DCCB412C63567F008E435A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32DCCB402C63567F008E435A /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		32B6B4622C6417140053E677 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		32DCCB392C63567C008E435A /* Flowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32DCCB3C2C63567C008E435A /* FlowersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowersApp.swift; sourceTree = "<group>"; };
 		32DCCB3E2C63567C008E435A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				32DCCB452C63567F008E435A /* Persistence.swift */,
 				32DCCB472C63567F008E435A /* Flowers.xcdatamodeld */,
 				32DCCB422C63567F008E435A /* Preview Content */,
+				32B6B4622C6417140053E677 /* CameraView.swift */,
 			);
 			path = Flowers;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				32DCCB462C63567F008E435A /* Persistence.swift in Sources */,
 				32DCCB3F2C63567C008E435A /* ContentView.swift in Sources */,
 				32DCCB492C63567F008E435A /* Flowers.xcdatamodeld in Sources */,
+				32B6B4632C6417140053E677 /* CameraView.swift in Sources */,
 				32DCCB3D2C63567C008E435A /* FlowersApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +432,8 @@
 				DEVELOPMENT_TEAM = H4BFHZ8NY6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(PRODUCT_NAME) Enable camera access";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -457,6 +463,8 @@
 				DEVELOPMENT_TEAM = H4BFHZ8NY6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(PRODUCT_NAME) Enable camera access";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
